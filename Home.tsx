@@ -52,12 +52,16 @@ export default function Home() {
                 A comprehensive platform unifying equity metrics from NGX, macroeconomic data from CBN, and corporate filings—enabling institutional investors, asset managers, and retail traders to explore data more intuitively, understand trends better, and easily save or share insights.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 pt-4">
-                <Button size="lg" className="bg-emerald-600 hover:bg-emerald-700">
-                  View Full Blueprint <ArrowRight className="ml-2 w-4 h-4" />
-                </Button>
-                <Button size="lg" variant="outline">
-                  Download PDF
-                </Button>
+                <a href="/FINVIZ_NIGERIA_BLUEPRINT.pdf" download>
+                  <Button size="lg" className="bg-emerald-600 hover:bg-emerald-700">
+                    View Full Blueprint <ArrowRight className="ml-2 w-4 h-4" />
+                  </Button>
+                </a>
+                <a href="/FINVIZ_NIGERIA_BLUEPRINT.pdf" download>
+                  <Button size="lg" variant="outline">
+                    Download PDF
+                  </Button>
+                </a>
               </div>
               <div className="flex gap-8 pt-8 text-sm">
                 <div>
@@ -377,9 +381,11 @@ export default function Home() {
             Download the complete strategic blueprint and technical specifications for building the Finviz of Nigeria.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="bg-emerald-600 hover:bg-emerald-700">
-              Download Full Blueprint
-            </Button>
+            <a href="/FINVIZ_NIGERIA_BLUEPRINT.pdf" download>
+              <Button size="lg" className="bg-emerald-600 hover:bg-emerald-700">
+                Download Full Blueprint
+              </Button>
+            </a>
             <Button size="lg" variant="outline">
               Schedule Consultation
             </Button>
